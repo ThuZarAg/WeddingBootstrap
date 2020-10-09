@@ -1,0 +1,10 @@
+.container.my-5.ml-2{
+	font-size:18px;
+	font-family: 'roboto';
+}
+
+#venue{
+	text-align:center;
+	color:#EE959E;
+	padding-top:50px;
+}
