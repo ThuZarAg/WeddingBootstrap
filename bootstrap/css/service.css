@@ -1,15 +1,12 @@
 /*Venue*/
 
-.container.my-5.ml-2{
-	font-size:18px;
-	font-family: 'roboto';
+.container.my-5.ml-5{
+	padding-left: 50px;
 }
-
 h2{
-	text-align:center;
 	color:#EE959E;
 	padding-top:50px;
-	font-size: 50px;
+	font-size: 60px;
 	font-family: 'niconne';
 }
 hr.style-seven {
@@ -32,10 +29,20 @@ hr.style-seven:before { /* Not really supposed to work, but does */
     border-radius: 20px;
 }
 .card-title{
-	font-size:25px;
+	font-size:20px;
 }
-/*End of service*/
+div.card-body p,
+div.card-body a{
+    font-family: 'roboto';
+    font-size: 16px;
+}
 
+/*End of Venue*/
+
+/*Hotel Detail*/
+#sedona,#melia,#sune,#maharsi,#mogok,#inya,#ibc,#gandamar,#zayar,#polo,#karaweik,#golden{
+	color:#EE959E;
+}
 
 
 
