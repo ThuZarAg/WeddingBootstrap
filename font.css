@@ -18,3 +18,7 @@
 	font-family: 'peddana';
 	src:url('fonts/Peddana-Regular.ttf');
 }
+@font-face{
+	font-family: 'devid';
+	src:url('fonts/DavidLibre-Medium.ttf');
+}

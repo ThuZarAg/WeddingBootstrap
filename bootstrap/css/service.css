@@ -5,20 +5,35 @@
 	font-family: 'roboto';
 }
 
-#venue{
+h2{
 	text-align:center;
 	color:#EE959E;
 	padding-top:50px;
+	font-size: 50px;
+	font-family: 'niconne';
+}
+hr.style-seven {
+    overflow: visible; /* For IE */
+    height: 30px;
+    width: 20%;
+    border-style: solid;
+    border-color: #EE959E;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr.style-seven:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: #EE959E;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
 }
 .card-title{
 	font-size:25px;
 }
-h3{
-	font-family: 'niconne';
-	font-size: 50px;
-	color: #CD5E77;
-}
-
 /*jewellery*/
 
 .titleDesign{
