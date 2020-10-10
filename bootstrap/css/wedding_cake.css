@@ -56,14 +56,42 @@
 	color: #EE959E;
 }
 
+.footer_style{
+	background-color: pink;
+}
 
+.navfont{
+	font-size: 25px;
+	color: #EE959E;
+	font-family: lobster;
+}
 
+.navbrandfont{
+	font-size: 30px;
+	color: #EE959E;
+	font-family: lobster;
+}
 
+.footer-section{
+	background-color: pink;
+	color: blue;
+	font-family: roboto;
+	
+	word-spacing: 3px;
 
+}
 
+.card_style{
+	font-family: roboto;
+	word-spacing: 3px;
+	font-size: 17px;
+	color: blue;
+}
 
-
-
+.h1_style{
+	font-family: niconne;
+	color: #EE959E;
+}
 
 
 
