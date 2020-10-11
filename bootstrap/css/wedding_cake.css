@@ -67,9 +67,9 @@
 }
 
 .navbrandfont{
-	font-size: 30px;
+	font-size: 40px;
 	color: #EE959E;
-	font-family: lobster;
+	font-family: niconne;
 }
 
 .footer-section{
@@ -93,7 +93,9 @@
 	color: #EE959E;
 }
 
-
+.image_transition:hover{
+      transform: scale(0.95);
+}
 
 
 
