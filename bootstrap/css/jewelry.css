@@ -13,6 +13,11 @@
 div.card img{
 	width: 253px !important;
 	height: 240px !important;
+	transition: all 0.5s ease;
+}
+
+div.card:hover img{
+	transform: scale(0.95);
 }
 
 .gold3{
