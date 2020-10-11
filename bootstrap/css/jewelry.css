@@ -10,23 +10,23 @@
 	color: #EE959E;
 }
 
-div.card img{
+/*div.card img{
 	width: 253px !important;
 	height: 240px !important;
 	transition: all 0.5s ease;
 }
-
-div.card:hover img{
+*/
+/*div.card:hover img{
 	transform: scale(0.95);
-}
+}*/
 
-.gold3{
+/*.gold3{
 	padding-bottom: 36px;
 }
 
 .jewelry23{
 	padding-bottom: 18px;
-}
+}*/
 
 div.card-body p,
 div.card-body a{
