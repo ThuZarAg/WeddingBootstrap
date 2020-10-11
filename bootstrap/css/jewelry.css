@@ -11,8 +11,8 @@
 }
 
 div.card img{
-	width: 253px !important;
-	height: 240px !important;
+	/*width: 253px !important;
+	height: 240px !important;*/
 	transition: all 0.5s ease;
 }
 
@@ -20,15 +20,15 @@ div.card:hover img{
 	transform: scale(0.95);
 }
 
-.gold3{
+/*.gold3{
 	padding-bottom: 36px;
 }
 
 .jewelry23{
 	padding-bottom: 18px;
-}
+}.*/
 
-div.card-body p,
+/*div.card-body p,
 div.card-body a{
 	font-family: 'roboto';
 	font-size: 18px;
@@ -38,7 +38,7 @@ div.Img img{
 	width: 100% !important;
 	height: 500px !important;
 
-	}
+	}*/
 
 .text_in_image{
 	position: absolute;
