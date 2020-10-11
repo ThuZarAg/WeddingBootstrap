@@ -1,7 +1,7 @@
 /*Venue*/
 
 .container.my-5.ml-5{
-	padding-left: 50px;
+	/*padding-left: 50px;*/
 }
 h2{
 	color:#EE959E;
@@ -34,7 +34,7 @@ hr.style-seven:before { /* Not really supposed to work, but does */
 div.card-body p,
 div.card-body a{
     font-family: 'roboto';
-    font-size: 16px;
+    font-size: 18px;
 }
 
 /*End of Venue*/
