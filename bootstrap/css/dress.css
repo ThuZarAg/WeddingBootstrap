@@ -53,11 +53,16 @@
 				font-size: 18px;
 			}
 
-			div.card{
+			/*div.card{
 				opacity: 0.8;
 				height: 27rem;
-				/*background-color:#EE959E; */
+				background-color:#EE959E; 
 			}
 			div.card:hover{
 				opacity: 1;
+			}*/
+			div.card-body h4{
+				font-family: 'niconne';
+				font-size: 20px;
+				color: #EE959E;
 			}
