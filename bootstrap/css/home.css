@@ -1,12 +1,9 @@
-.logo_image{
-	width: 100%;
-	height: auto;
-}
-/* .divided_by{
-	max-width:6rem;
-	border-style:solid;
-	color:palevioletred;
-} */
+
+img.logo-image{
+	max-width: 4%;
+     }
+
+
 
  
  .card-body img{
@@ -14,11 +11,15 @@
     max-width: 100%;
 	height: auto;
     
+} 
+.logo{
+	display:inline;
 }
+
  /* hr line */
  hr.divided_by {
 	max-width:6rem;
-    overflow: visible; /* For IE */
+    overflow: visible;
     height: 30px;
     width: 25%;
     border-style: solid;
@@ -26,7 +27,7 @@
     border-width: 1px 0 0 0;
     border-radius: 20px;
 }
-hr.divided_by:before { /* Not really supposed to work, but does */
+hr.divided_by:before { 
     display: block;
     content: "";
     height: 30px;
@@ -36,14 +37,11 @@ hr.divided_by:before { /* Not really supposed to work, but does */
     border-width: 0 0 1px 0;
     border-radius: 20px;
 }
- .btn-outline-danger{
-	border-color:#EE959E ;
-}
+/* end of hr line */
 
+/*What We Offer */
 
-/* We Offer */
-
-
+/* All header and paragraph */
 .navbar-brand,.foral_design,.cake_design,.dress_design,.jewelry{
 	font-family: 'niconne';
 }
@@ -57,18 +55,22 @@ hr.divided_by:before { /* Not really supposed to work, but does */
 
 }
 
+
 /* navigation */
 .nav-link{
 	font-size: 1.5rem;
 	font-family: 'lobster';
 
 }
-.navlink :hover{
+/* .navlink :hover{
 	color:#EE959E;
 	border-bottom: 2px solid #CD5E77;
 	font-size:1.7rem;
 	padding:15px 0;
 	transition: all 0.10s ease-in;
+} */
+.nav-bg-color{
+	background-color: lightgray;
 }
 .nav-bg-color a{
 	color:#CD5E77;
@@ -108,29 +110,36 @@ hr.divided_by:before { /* Not really supposed to work, but does */
 	font-size: 20px;
 	color:#58D3F7;
 }
+/* end of footer section */
 
-.container-section .transition-img .card:hover{
-	
-	position: absolute;
-	background-color:pink;
-	border-bottom: 1px solid pink;
+ /* .transition-img .card:hover{
+	 */
+	/* background-color:pink; */
+	/* border-bottom: 1px solid pink;
 	font-size:1.2rem;
 	padding:10px 0;
-	transition: all ease-out .22s;
+	transition: all ease-in .90sec;
 	border-radius: 5px solid #CD5E77; 
-	
-	
-	
+	opacity: -0.1px;		
+} */
+.transition-img .card,.transition-img .card-body-fluid,.transition-img .card img{
+	border-radius:5px;
+}
+.section-offer .transition-img .card:hover{
+	border-color: #CD5E77;
+	box-shadow: 5px 5px  #EE959E;
 }
 .card{
 	background-color: white;
+}
+.bg-profolio img{
+	border-radius: 5px;
 }
 
 .bg-color{
 	background-color:lightgray;
 	border-radius: 1px;
 }
-/* .bg-profolio{
-	background-color:lightgray;
-} */
+
+
 
