@@ -14,17 +14,53 @@
             background-image: 100%;
 
 		}
-        
+
+        /*.people_section{
+            width: 100%;
+        }
+        */
+        .navfont{
+             font-size: 25px;
+             color: #EE959E;
+             font-family: lobster;
+        }
+
+        .navbrandfont{
+             font-size: 40px;
+             color: #EE959E;
+             font-family: niconne;
+        }
+
 
 		.people_section .people_filter h1{
 		    
 		     text-align: center;
-             margin-bottom:50px;
-             color:#EE959E;
+             
+             color:#CD5E77;
              font-family: 'niconne';
              font-size: 80px;
 
 		}
+
+        .margin_style {
+            overflow: visible; /* For IE */
+            height: 30px;
+            width: 20%;
+            border-style: solid;
+            border-color: #EE959E;
+            border-width: 1px 0 0 0;
+            border-radius: 20px;
+        }
+        .margin_style:before { /* Not really supposed to work, but does */
+            display: block;
+            content: "";
+            height: 30px;
+            margin-top: -31px;
+            border-style: solid;
+            border-width: 0 0 1px 0;
+            border-radius: 20px;
+        }  
+        
 		
         .people_section .people_item_inner img{
             width:100%;
@@ -73,16 +109,43 @@
 </head>
 <body>
 <selection class="people_section">
-      <div class="container">
+      <!-- <div class="container-fluid">
       		<div class="section_title">
-                <img src="images/bg-image.jpg" class="img-fluid ">
+                <img src="images/team_member2.jpg" class="img-fluid mb-5 w-100%">
       		</div>
     
         	<div class="people_filter">
         	<h1>Our Team</h1>
+            <hr class="margin_style">
         		
             </div>
       </div>
+ -->   
+
+      <nav class="navbar navbar-expand-lg navbar-expand-md py-3 bg-light">
+          <!-- <img src="images/logo.jpg" class="img-fluid ml-4 logo_image"> -->
+            <a href="" class="navbar-brand navbrandfont">Wedding World</a> 
+          
+            <ul class="navbar-nav ml-auto">
+               
+               <li class="nav-item mr-3 navfont"><a href="home.html" class="nav-link">Home</a></li>
+               <li class="nav-item mr-3 navfont"><a href="" class="nav-link">About</a></li>
+               <li class="nav-item mr-3 navfont"><a href="service.hmtl" class="nav-link">Service</a></li>
+               <li class="nav-item mr-3 navfont"><a href="contact.html" class="nav-link">Contacts</a></li>
+               <li class="nav-item mr-3 navfont"><a href="" class="nav-link btn btn-outline-danger" style="padding: 10px;">make a appointment</a></li>
+              
+        </ul>
+       </nav>
+
+      <div class="section_title">
+                <img src="images/team_member2.jpg" class="img-fluid mb-5 w-100%">
+            </div>
+    
+            <div class="people_filter">
+            <h1>Our Team</h1>
+            <hr class="margin_style">
+                
+            </div>
 
         <div class="container">
           <div class="row row-cols-3">
@@ -161,13 +224,13 @@
              </div>
          </div>
                <div class="container">
-                <div class=" row row-cols-1">
+                <div class=" row">
 
               <div class="people_item" data-catageory="member">
                      <div class="col my-3">
                          <div class="people_item_inner">
                     
-                          <img src="images/dress/saved Pictures/nayy.jpeg"  class="img-fluid w-100">
+                          <img src="images/dress/saved Pictures/nayy.jpeg"  class="img-fluid ">
                           <h4> Nay Aung Win</h4>
                           <p>Group member</p>
                      <div class="social_icons">
@@ -190,11 +253,11 @@
          </div>
      </div></div>
      <div class="container">
-        <div class="row row-cols-1">
+        <div class="row">
               <div class="people_item" data-catageory="member">
                 <div class="col my-3">
                  <div class="people_item_inner">
-                 <img src="images/dress/saved Pictures/kaung.jpeg"  class="img-fluid w-100">
+                 <img src="images/dress/saved Pictures/kaung.jpeg"  class="img-fluid ">
                  <h4> Kaung Kyaw Htin</h4>
                  <p>Group member</p>
                  <div class="social_icons">
@@ -216,11 +279,11 @@
              </div>
          </div></div></div>
          <div class="container">
-            <div class="row row-cols-1">
+            <div class="row">
               <div class="people_item" data-catageory="member">
                 <div class="col my-3">
                  <div class="people_item_inner">
-                 <img src="images/htike.jpeg"  class="img-fluid w-100">
+                 <img src="images/htike.jpeg"  class="img-fluid ">
                  <h4> Htike Min Swan</h4>
                  <p>Group member</p>
                  <div class="social_icons">
@@ -242,11 +305,11 @@
              </div>
          </div></div></div>
           <div class="container">
-            <div class="row row-cols-1">
+            <div class="row ">
               <div class="people_item" data-catageory="member">
                 <div class="col my-3">
                  <div class="people_item_inner">
-                 <img src="images/1.jpg"  class="img-fluid w-100">
+                 <img src="images/1.jpg"  class="img-fluid ">
                  <h4> Myat Noe Thu</h4>
                  <p>Group member</p>
                  <div class="social_icons">
